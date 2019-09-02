@@ -33,6 +33,8 @@ header {
     background-color: #ebebeb;
     padding: 30px;
     margin: 10px;
+    flex: 1;
+    order: 2;
 }
 
 #section {
@@ -40,12 +42,15 @@ header {
     width: 495px;
     padding: 30px;
     margin: 10px;
+    flex: 1;
+    order: 1;
 }
 
 #article {
     color: #ebebeb;
     background-color: #777;
     padding: 10px;
+    margin: 10px;
 }
 
 h1 {
@@ -64,8 +69,12 @@ p {
 }
 
 
-footer{
+footer {
     background-color: #ebebeb;
     padding: 30px;
     margin: 10px;
+}
+
+.container {
+    display: flex;
 }
